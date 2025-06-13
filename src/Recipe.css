@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.recipe{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+.recipe img{
+    height: 400px;
+    width: 400px;
+}
+
+ul {
+  list-style-type: disc;  /* This is the default "dot" */
+  padding-left: 20px;     /* Indent to show the bullets */
+}
+
+li {
+  margin-bottom: 5px;     /* Optional spacing between items */
+}
+
+.recipe-details{
+    margin: 10px 20px;
+}
+.recipe-details h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: orange;
+}
+
+.recipe-details h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: blue;
+}
+.Instructions{
+    margin: 10px  20px;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: orange;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(221, 79%, 40%);
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 300px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.Search{
+    margin-left: 100px;
+    /* padding: 5px; */
+}
+
+.search-icon {
+  /* color: white; */
+  /* font-size: 1.2rem; */
+  height: 10px;
+  cursor: pointer;
+    /* transition: color 0.3s ease; */
+}
+
+.nav-links li a:hover {
+  border-bottom: 2px solid white;
+}

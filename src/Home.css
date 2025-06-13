@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(210, 22%, 20%);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+              url('./assets/bg.jpg');
+  background-size: cover;   
+  color: white;
+}
+
+
+.hero {
+    /* background-image: url('https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg'); Use the direct image URL */
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Adjust this as needed: 60vh = 60% of viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    gap: 10px;
+    text-align: center;
+}
+
+.content p{
+    margin-bottom: 50px;
+}
+
+
+.dish-cards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 50px;
+    text-align:start;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin: 0 20px;
+    background-color: orange;
+    
+}
+
+.card p{
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 2px 0;
+    margin-left: 5px;
+}
+.dish-cards img{
+    height : 150px;
+    width: 210px;
+}
+
+.yt-button{
+    display: flex;
+}
+
+.yt-button a{
+    color:red;
+    margin-top: 6px;
+    margin-left: 5px;
+    height: 15px;
+    width:15px
+}
+
+.recipe-button{
+   margin-top: 5px;
+}
+
+.recipe-button button{
+    background-color: blue;
+    padding: 5px 5px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 5px;
+    border: 1px solid blue;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
